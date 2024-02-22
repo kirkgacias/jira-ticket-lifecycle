@@ -22,14 +22,18 @@
 <h4>Highlight Best Practices and Key Features: </h4>
 
 - Emphasize Jira Service Management's key features, such as automation, SLA management, knowledge base integration, reporting, and how it can optimize IT support operations.
-  
+
+
 <h2>Technologies and Environments</h2>
 
 - Jira Service Management 
 - Windows 10
 
-
 <h2>Ticket Lifecycle</h2>
+
+![7b1f07f2-57bc-4103-83fa-841032dd2df9](https://github.com/kirkgacias/jira-ticket-lifecycle/assets/158519921/87e0ea11-099e-40cc-8a6c-b047dea3a1c5)
+
+<br>
 
 <p>The diagram shows the key stages a service ticket goes through from start to finish. It starts with Ticket Creation, where a user reports a problem. Next is Classification, where the ticket is sorted by type and priority. Assignment + Escalation follows, assigning the ticket to the right team and escalating it if needed. Resolution Steps involve fixing the issue, while Communication ensures the user stays updated. Finally, Resolution & Closure marks the problem as solved and closes the ticket. This flow ensures a smooth and organized approach to handling user issues.</p>
 
@@ -40,48 +44,83 @@
 
 - Accessing the Portal: Log in to your Jira Service Management instance. If you're an agent or an admin, you can access the portal by clicking on "Help Center" from the main dashboard or by navigating directly to the URL provided by your Jira administrator, which usually follows the format https://[your-domain].atlassian.net/servicedesk/customer/portals.
 
-![Help Center](https://github.com/kirkgacias/jira-ticket-lifecycle/assets/158519921/69bf8209-cac8-40bb-9485-49e8b5ef612c)
+<br>
+
+<img width="593" alt="Help Center" src="https://github.com/kirkgacias/jira-ticket-lifecycle/assets/158519921/69bf8209-cac8-40bb-9485-49e8b5ef612c">
 
 
-.
-.
-.
-Submitting a Ticket: Once in the Help Center or specific service project portal, you can submit a ticket by selecting the appropriate request type (e.g., "Get IT help," "Report a problem," etc.). Fill out the form with the necessary details, such as a description of the issue, any relevant attachments, and other required fields.
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
 
 
+<p><strong>Submitting a Ticket:</strong> Once in the Help Center or specific service project portal, you can submit a ticket by selecting the appropriate request type (e.g., "Get IT help," "Report a problem," etc.). Fill out the form with the necessary details, such as a description of the issue, any relevant attachments, and other required fields.</p>
 
-.
-.
-.
-<p>Jira Service Management allows tickets to be created via email. Each service project can be configured with a unique email address that users can send their requests to, automatically creating tickets in the system.</p>
+<img width="600" alt="reqs" src="https://github.com/kirkgacias/jira-ticket-lifecycle/assets/158519921/52f60650-2705-4515-8eeb-dd01ddec254a">
 
-Finding the Email Address: The email address for ticket submission is set up by the Jira administrator. You can usually find it in the project's settings under "Project settings" > "Email requests" or by asking your Jira administrator. It might also be communicated to users through internal channels or help documentation.
 
-Submitting a Ticket via Email: Simply send an email to the project's designated email address. The subject of the email typically becomes the issue summary, and the body of the email becomes the issue description. Attachments can also be included in the email and will be added to the ticket.
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
+
+
+<p><strong>Jira Service Management allows tickets to be created via email. Each service project can be configured with a unique email address that users can send their requests to, automatically creating tickets in the system.</strong></p>
+
+<p><strong>Finding the Email Address:</strong> The email address for ticket submission is set up by the Jira administrator. You can usually find it in the project's settings under "Project settings" > "Email requests" or by asking your Jira administrator. It might also be communicated to users through internal channels or help documentation.</p>
+
+<br>
+
+<img width="550" alt="combine" src="https://github.com/kirkgacias/jira-ticket-lifecycle/assets/158519921/a054bed9-1db9-4c83-9ac0-9ec7e9e02bc2">
+
+
+<br>
+<br>
+
+<p><strong>Submitting a Ticket via Email:</strong> Simply send an email to the project's designated email address. The subject of the email typically becomes the issue summary, and the body of the email becomes the issue description. Attachments can also be included in the email and will be added to the ticket.</p>
+
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
 
 <h3>&#9313; Classification </h3>
 
 <p>The classification of tickets in Jira Service Management is a crucial step in the ticket lifecycle, as it determines how a ticket is handled, prioritized, and resolved. Classification involves categorizing the ticket based on its nature and urgency, which helps in streamlining the resolution process and ensuring that resources are allocated efficiently. Here's a detailed look at the key aspects of ticket classification:</p>
 
 <h4>Types of Classification</h4>
+
 <p><strong>Issue Type:</strong> This categorizes the ticket into predefined types such as Incident, Service Request, Problem, or Change. Each type has its own workflow and resolution process. To add, edit, or view issue types, go to Project Settings > Issue Types.</p>
 
-<h5>Some common Issue types:</h5>
-Incident: An issue impacting the user's ability to access or use services.
-Service Request: A request for something new, such as access to a service, additional resources, or information.
-Problem: An underlying issue causing multiple incidents.
-Change: A request for a significant modification to the system or services.
+<img width="600" alt="issue" src="https://github.com/kirkgacias/jira-ticket-lifecycle/assets/158519921/e1dfbcf8-f496-4e69-9600-4420229de261">
 
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
 
-.
-.
-.
+<h3>Some common Issue types:</h3>
+
+<p><strong>Incident: </strong>An issue impacting the user's ability to access or use services.</p>
+
+<p><strong>Service Request:</strong> A request for something new, such as access to a service, additional resources, or information.</p>
+
+<p><strong>Problem:</strong> An underlying issue causing multiple incidents.
+Change: A request for a significant modification to the system or services.</p>
+
+<br>
+
+<img width="700" alt="Incident" src="https://github.com/kirkgacias/jira-ticket-lifecycle/assets/158519921/4f44817d-08d0-4575-a0b8-ad86bf8fd111">
+
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
 
 
 <p><strong>Priority:</strong> Defines the urgency and impact of the issue, determining how quickly a ticket needs to be addressed. Priorities are usually defined as High, Medium, Low, or other custom levels set by the organization. Look for the "Priorities" section under issue attributes. This section will allow you to view, edit, add, or delete priorities. Below, you can see a list of configured priorities in your Jira instance.</p>
-High: Issues that critically impact business operations or a large number of users and require immediate attention.
-Medium: Issues that affect a subset of users or can degrade the quality of service but aren’t immediately critical.
-Low: Minor issues with little to no immediate impact on business operations or user productivity.
+
+<p><strong>High:</strong> Issues that critically impact business operations or a large number of users and require immediate attention.</p>
+  
+<p><strong>Medium:</strong> Issues that affect a subset of users or can degrade the quality of service but aren’t immediately critical.</p>
+  
+<p><strong>Low: </strong>Minor issues with little to no immediate impact on business operations or user productivity.</p>
+
+<br>
+
+<img width="700" alt="prior" src="https://github.com/kirkgacias/jira-ticket-lifecycle/assets/158519921/37d48b1b-ecb4-4e7b-a933-632cdf2c2417">
+
 
 
 .
